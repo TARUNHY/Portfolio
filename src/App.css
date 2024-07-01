@@ -1,0 +1,265 @@
+*{
+   background-color: rgb(32, 32, 33);
+}
+
+.hove {
+   
+    color: white; 
+  }
+  
+ 
+  .hove.active {
+    color: #1a56db; 
+  }
+  .background{
+    background-color: white;
+  }
+  @media (max-width: 639px) {
+    .hhead{
+    font-size: 25px;
+    }
+  .htext{
+    font-size: 8px;
+  }
+  .himg{
+   height: 150px;
+   width: 150px;
+   margin-bottom: 20px;
+  }
+  .hdow{
+   font-size: 10px;
+  }
+  .mskill{
+    display: flex;
+    flex-direction: row;
+  }
+  .skill{
+    display: inline-block;
+    font-size: 20px;
+  }
+ .pmain{
+  height: 130px;
+  width: auto;
+  margin: 10px;
+ }
+  .overlay-container {
+  position: relative ;
+  
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  background-color: rgba(209, 213, 219, 1); 
+  
+}
+
+.overlay-container:hover {
+  opacity: 1;
+  display: flex;
+}
+
+.overlay-content {
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  border-radius: 0.75rem; 
+  padding: 1rem; 
+}
+
+.overlay-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.25rem; 
+  background-color: white;
+}
+
+.project-image {
+  border-radius: 0.75rem; 
+ position: relative;
+ top: -10;
+} 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  .fpara{
+    font-size: 8px;
+    margin: 4px;
+  }
+  .font{
+    margin: 2px;
+    font-size: 1px;
+    
+  }
+  .fonti{
+    font-size: 15px;
+  }
+  .font1{
+    
+    margin: 2px;
+    font-size: 1px;
+    
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+  .fonti1{
+    font-size: 20px;
+   
+   
+  }
+  .but{
+    display: none;
+  }
+  }
+  @media (min-width: 639px) and (max-width: 927px){
+    .hhead{
+      font-size: 30px;
+      }
+    .htext{
+      font-size: 12px;
+    }
+    .himg{
+     height: 170px;
+     width: 170px;
+     margin-bottom: 20px;
+    }
+    .hdow{
+     font-size: 15px;
+    }
+    .mskill{
+      display: flex;
+      flex-direction: row;
+    }
+    .skill{
+      display: inline-block;
+      font-size: 25px;
+    }
+   .pmain{
+    height: 130px;
+    width: auto;
+    margin: 10px;
+   }
+    .overlay-container {
+    position: relative ;
+    
+    inset: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    background-color: rgba(209, 213, 219, 1); 
+    
+  }
+  
+  .overlay-container:hover {
+    opacity: 1;
+    display: flex;
+  }
+  
+  .overlay-content {
+  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border-radius: 0.75rem; 
+    padding: 1rem; 
+  }
+  
+  .overlay-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.25rem; 
+    background-color: white;
+  }
+  
+  .project-image {
+    border-radius: 0.75rem; 
+   position: relative;
+   top: -10;
+  } 
+   
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+    .fpara{
+      font-size: 10px;
+      margin: 6px;
+    }
+    
+    .fonti{
+      font-size: 20px;
+    }
+    .font1{
+      
+      margin: 2px;
+      font-size: 1px;
+      
+      padding-top: 7px;
+      padding-bottom: 7px;
+      margin-bottom: 6px;
+    }
+    .fonti1{
+      font-size: 25px;
+     
+     
+    }
+    .but{
+      display: none;
+    }
+  }
