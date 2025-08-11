@@ -1,5 +1,5 @@
 import React from 'react';
-import MyResume from '../Resume/Resume.pdf'
+
 const Home = () => {
   return (
     <div className='container mx-auto flex justify-between items-center h-[100vh]'>
@@ -12,7 +12,7 @@ const Home = () => {
             mindset helps in overcoming obstacles in the development process."I am actively seeking opportunities
              to apply my skills, collaborate with innovative teams, and gain valuable insights.</p>
           <div className='mt-9 '>
-             <a href={MyResume} download className="bg-black hover:bg-blue-700 text-white font-bold py-2 px-4 bi bi-download rounded-full hdow">
+             <a href='/Resume.pdf' download className="bg-black hover:bg-blue-700 text-white font-bold py-2 px-4 bi bi-download rounded-full hdow">
                 Download Resume
           </a>
           </div>    
