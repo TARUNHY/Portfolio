@@ -1,5 +1,5 @@
 import React from 'react';
-import MyResume from '../Resume/Resume.pdf'
+import MyResume from '../Resume/Resume(1).pdf'
 const Home = () => {
   return (
     <div className='container mx-auto flex justify-between items-center h-[100vh]'>
