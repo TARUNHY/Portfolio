@@ -1,7 +1,7 @@
 import React from 'react';
 import project from '../Resume/project.png';
 import project1 from '../Resume/project1.png';
-import project2 from '../Resume/project2.png';
+import project2 from '../Resume/project2.jpg';
 
 const Projects = () => {
   return (
